@@ -1,0 +1,40 @@
+.historyWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px !important;
+}
+
+.historyItem {
+    border: 1px solid var(--vkui--color_stroke_accent_themed);
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 0;
+}
+
+.dateBlock {
+    color: var(--vkui--text_secondary);
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.hasNote {
+    color: var(--vkui--text_secondary);
+    text-wrap: auto;
+}
+
+.withoutNote {
+    color: var(--vkui--text_tertiary);
+    text-wrap: auto;
+}
+
+.emoji {
+    font-size: 24px;
+}
+
+.loadMoreButton {
+    margin-top: 20px;
+}
